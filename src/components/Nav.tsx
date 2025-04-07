@@ -1,8 +1,8 @@
 
 function Nav() {
   return (
-    <div className="w-[100%] pt-[15px] ">
-        <div className="border-b-[2px] border-b-[#01C2FF]"> 
+    <div className="w-[100%] ">
+        <div className="border-b-[2px] border-b-[#01C2FF] pt-[15px] pb-[15px] backdrop-blur-sm"> 
             <div className="flex justify-between items-center w-[90%] m-auto">
                 <div className="flex items-center ">
                     <img src="/images/logo2806.svg" alt="logo" />
@@ -13,13 +13,43 @@ function Nav() {
                 </div>
             </div>
         </div>
-        <div className="flex">
-            <div className="w-[50%]">
-                <div></div>
+        <div className="flex w-[90%] m-auto">
+            <div className="w-[50%] flex  justify-center ">
+                <div className="flex gap-33">
+                    <div className="relative flex flex-col items-center">
+                        <div className="absolute top-[-10px]" >
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#01C2FF"><path d="M480-360 280-560h400L480-360Z"/></svg>
+                        </div>
+                        <div className="border-2 border-[#01C2FF] h-[35px] w-[120px] rounded-[8px] flex justify-center items-center absolute top-[10px]">
+                            <p className="text-[#01C2FF] mr-[3px] text-[16px]">Home</p>
+                        </div>
+                    </div>
+                    <div className="relative flex flex-col items-center">
+                        <div className="absolute top-[-10px]" >
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#01C2FF"><path d="M480-360 280-560h400L480-360Z"/></svg>
+                        </div>
+                        <div className="border-2 border-[#01C2FF] h-[35px] w-[120px] rounded-[8px] flex justify-center items-center absolute top-[10px]">
+                            <p className="text-[#01C2FF] mr-[3px] text-[16px]">Project</p>
+                        </div>
+
+                    </div>
+                    <div className="relative flex flex-col items-center">
+                        <div className="absolute top-[-10px]" >
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#01C2FF"><path d="M480-360 280-560h400L480-360Z"/></svg>
+                        </div>
+                        <div className="border-2 border-[#01C2FF] h-[35px] w-[120px] rounded-[8px] flex justify-center items-center absolute top-[10px]">
+                            <p className="text-[#01C2FF] mr-[3px] text-[16px]">Contact</p>
+                        </div>
+
+                    </div>
+                </div>
             </div>
             
-            <div className="w-[50%] flex justify-center ">
-                <div className="border-2 border-[#01C2FF] h-[35px] w-[120px] rounded-[8px] flex justify-center items-center">
+            <div className="w-[50%] flex flex-col items-center relative">
+                <div className="absolute top-[-10px]" >
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#01C2FF"><path d="M480-360 280-560h400L480-360Z"/></svg>
+                </div>
+                <div className="border-2 border-[#01C2FF] h-[35px] w-[120px] rounded-[8px] flex justify-center items-center absolute top-[10px]">
                     <p className="text-[#01C2FF] mr-[3px] text-[16px]">Portfolio</p>
                 </div>
             </div>
